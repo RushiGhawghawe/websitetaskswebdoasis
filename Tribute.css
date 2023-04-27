@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5fd;
+}
+.container{
+   
+    min-height: 100vh;
+    border: 10px solid #1D1E4C;
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #1D1E4C;
+    text-transform: uppercase;
+}
+.top_section h4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#1D1E4C;
+    text-align: end;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container, img{
+    width:300px;
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #1D1E4C;
+}
+.about_section p{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.7px;
+    text-align: justify;
+}
+.achievement_section{
+    margin: 50px;
+}
+.achievement_section h3{
+    margin-bottom:30px;
+    font-size: 50px;
+}
+.achievement_section ul{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+.achievement_section ul li{
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 1.7px;
+}
+footer a{
+    margin-bottom:30px;
+    font-size: 30px;
+    
+}
